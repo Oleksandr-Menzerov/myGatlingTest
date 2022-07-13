@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatlingTest.MyFirstAPITestsConstantUsersPerSec",
+  "simulationId": "myfirstapitestsconstantuserspersec",
+  "start": 1657748792375,
+  "description": "",
+  "scenarios": ["MyFirstAPITests"],
+  "assertions": [
+
+  ]
+}

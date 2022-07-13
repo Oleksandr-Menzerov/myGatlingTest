@@ -1,0 +1,7 @@
+RUN	com.gatlingTest.MyFirstAPITests	myfirstapitests	1657743513859	 	3.6.1
+USER	MyFirstAPITests	START	1657743514641
+REQUEST		LoadAllRockers	1657743514662	1657743514690	OK	 
+REQUEST		AddNewRocker	1657743519709	1657743519713	KO	status.find.is(201), but actually found 400
+REQUEST		Update rocker	1657743524757	1657743524762	KO	status.find.is(204), but actually found 404
+REQUEST		Delete rocker	1657743529773	1657743529779	KO	status.find.is(204), but actually found 404
+USER	MyFirstAPITests	END	1657743529783

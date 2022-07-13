@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatlingTest.MyFirstAPITestsRampUsers",
+  "simulationId": "myfirstapitestsrampusers",
+  "start": 1657748880207,
+  "description": "",
+  "scenarios": ["MyFirstAPITests"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 4,
+        "ok": 2,
+        "ko": 2
+    },
+    "minResponseTime": {
+        "total": 4,
+        "ok": 9,
+        "ko": 4
+    },
+    "maxResponseTime": {
+        "total": 160,
+        "ok": 34,
+        "ko": 160
+    },
+    "meanResponseTime": {
+        "total": 52,
+        "ok": 22,
+        "ko": 82
+    },
+    "standardDeviation": {
+        "total": 64,
+        "ok": 13,
+        "ko": 78
+    },
+    "percentiles1": {
+        "total": 22,
+        "ok": 22,
+        "ko": 82
+    },
+    "percentiles2": {
+        "total": 66,
+        "ok": 28,
+        "ko": 121
+    },
+    "percentiles3": {
+        "total": 141,
+        "ok": 33,
+        "ko": 152
+    },
+    "percentiles4": {
+        "total": 156,
+        "ok": 34,
+        "ko": 158
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 2,
+    "percentage": 50
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 2,
+    "percentage": 50
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.25,
+        "ok": 0.125,
+        "ko": 0.125
+    }
+},
+"contents": {
+"req_loadallrockers-fc696": {
+        "type": "REQUEST",
+        "name": "LoadAllRockers",
+"path": "LoadAllRockers",
+"pathFormatted": "req_loadallrockers-fc696",
+"stats": {
+    "name": "LoadAllRockers",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 34,
+        "ok": 34,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 34,
+        "ok": 34,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 34,
+        "ok": 34,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 34,
+        "ok": 34,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 34,
+        "ok": 34,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 34,
+        "ok": 34,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 34,
+        "ok": 34,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.0625,
+        "ok": 0.0625,
+        "ko": 0
+    }
+}
+    },"req_addnewrocker-2245d": {
+        "type": "REQUEST",
+        "name": "AddNewRocker",
+"path": "AddNewRocker",
+"pathFormatted": "req_addnewrocker-2245d",
+"stats": {
+    "name": "AddNewRocker",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 9,
+        "ok": 9,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 9,
+        "ok": 9,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 9,
+        "ok": 9,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 9,
+        "ok": 9,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 9,
+        "ok": 9,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 9,
+        "ok": 9,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 9,
+        "ok": 9,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.0625,
+        "ok": 0.0625,
+        "ko": 0
+    }
+}
+    },"req_update-rocker-63100": {
+        "type": "REQUEST",
+        "name": "Update rocker",
+"path": "Update rocker",
+"pathFormatted": "req_update-rocker-63100",
+"stats": {
+    "name": "Update rocker",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 4,
+        "ok": 0,
+        "ko": 4
+    },
+    "maxResponseTime": {
+        "total": 4,
+        "ok": 0,
+        "ko": 4
+    },
+    "meanResponseTime": {
+        "total": 4,
+        "ok": 0,
+        "ko": 4
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 4,
+        "ok": 0,
+        "ko": 4
+    },
+    "percentiles2": {
+        "total": 4,
+        "ok": 0,
+        "ko": 4
+    },
+    "percentiles3": {
+        "total": 4,
+        "ok": 0,
+        "ko": 4
+    },
+    "percentiles4": {
+        "total": 4,
+        "ok": 0,
+        "ko": 4
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.0625,
+        "ok": 0,
+        "ko": 0.0625
+    }
+}
+    },"req_delete-rocker-7810e": {
+        "type": "REQUEST",
+        "name": "Delete rocker",
+"path": "Delete rocker",
+"pathFormatted": "req_delete-rocker-7810e",
+"stats": {
+    "name": "Delete rocker",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 160,
+        "ok": 0,
+        "ko": 160
+    },
+    "maxResponseTime": {
+        "total": 160,
+        "ok": 0,
+        "ko": 160
+    },
+    "meanResponseTime": {
+        "total": 160,
+        "ok": 0,
+        "ko": 160
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 160,
+        "ok": 0,
+        "ko": 160
+    },
+    "percentiles2": {
+        "total": 160,
+        "ok": 0,
+        "ko": 160
+    },
+    "percentiles3": {
+        "total": 160,
+        "ok": 0,
+        "ko": 160
+    },
+    "percentiles4": {
+        "total": 160,
+        "ok": 0,
+        "ko": 160
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.0625,
+        "ok": 0,
+        "ko": 0.0625
+    }
+}
+    }
+}
+
+}
